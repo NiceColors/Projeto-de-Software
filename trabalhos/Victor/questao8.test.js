@@ -2,7 +2,7 @@ const numberOfVogals = require('./questao8.js');
 
 const words = require('./mocks/words.json');
 
-test('Calcula a quantidade de vogais de uma frase', () => {
+test('Calcula a quantidade de vogais de uma string', () => {
 
     expect(numberOfVogals(null)).toBeFalsy();
     expect(numberOfVogals(undefined)).toBeFalsy();
